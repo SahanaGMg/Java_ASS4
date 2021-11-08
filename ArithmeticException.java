@@ -18,30 +18,7 @@ public class ArithmeticException {
             System.out.println("Cannot divide the number by zero");
         }
 
-        try {
-            int num = Integer.parseInt("Edureka");
-            System.out.println(num);
-        }
-        catch (NumberFormatException e)
-        {
-            System.out.println("Number format Exception");
-        }
-        try {
-            int[] arr = new int[5];
-            arr[8]=10;
-        }
-        catch (ArrayIndexOutOfBoundsException e)
-        {
-            System.out.println("Array index not found");
-        }
-        try {
-            String str = "hello";
-            str.charAt(8);
-        }
-        catch (StringIndexOutOfBoundsException e)
-        {
-            System.out.println("String index not found");
-        }
+        
         
 
     }
